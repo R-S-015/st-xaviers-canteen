@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Canteen Connect",
+  title: "XavDash",
   description: "Seamless ordering for St. Xavier's",
 };
 

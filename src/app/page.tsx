@@ -68,7 +68,7 @@ export default function HomeDashboard() {
     <div className="min-h-[100dvh] bg-transparent text-[#4A3C31] flex flex-col font-sans pb-24">
       <header className="bg-[#DCD0B6]/30 backdrop-blur-md backdrop-saturate-150 shadow-sm p-4 sticky top-0 z-10 flex justify-between items-center border-b border-white/30">
         <h1 className="text-xl font-black text-[#B85C60] flex items-center gap-2 tracking-tight">
-          <span className="text-2xl">🍱</span> Canteen Connect
+          <span className="text-2xl">🍱</span> XavDash
         </h1>
         <HeaderAuth />
       </header>

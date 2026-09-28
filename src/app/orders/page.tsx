@@ -226,7 +226,7 @@ export default function OrdersPage() {
               
               <div className="text-center mb-6 mt-2">
                 <h2 className="text-2xl font-black mb-1">ST. XAVIER'S</h2>
-                <h3 className="text-sm">CANTEEN CONNECT</h3>
+                <h3 className="text-sm">XAVDASH</h3>
                 <p className="text-xs mt-2 text-gray-500">Date: {new Date(selectedReceipt.created_at).toLocaleString()}</p>
                 <p className="text-xs text-gray-500">Order #{selectedReceipt.id}</p>
                 <p className="text-xs text-gray-500">{user?.email}</p>

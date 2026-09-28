@@ -48,7 +48,7 @@ export default async function MenuPage() {
       {/* Header */}
       <header className="bg-[#DCD0B6]/45 backdrop-blur-xl backdrop-saturate-[1.5] shadow-sm p-4 z-20 flex justify-between items-center border-b border-white/40 flex-shrink-0">
         <Link href="/" className="text-xl font-black text-[#B85C60] flex items-center gap-2 tracking-tight hover:opacity-80 transition-opacity drop-shadow-sm">
-          <span className="text-2xl">🍱</span> Canteen Connect
+          <span className="text-2xl">🍱</span> XavDash
         </Link>
         <HeaderAuth />
       </header>

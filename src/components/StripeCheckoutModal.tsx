@@ -75,7 +75,7 @@ export default function StripeCheckoutModal({ amount, isOpen, onClose, onSuccess
                 <span className="text-xl">🍱</span>
               </div>
               <div>
-                <h2 className="font-semibold text-[15px] leading-tight">Canteen Connect</h2>
+                <h2 className="font-semibold text-[15px] leading-tight">XavDash</h2>
                 <p className="text-[#a4a7cf] text-xs">Test Environment</p>
               </div>
             </div>

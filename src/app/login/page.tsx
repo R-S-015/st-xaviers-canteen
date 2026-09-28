@@ -58,7 +58,7 @@ export default function Login() {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex justify-center text-5xl mb-4 opacity-90 drop-shadow-sm">🍱</div>
         <h2 className="mt-6 text-center text-3xl font-black text-[#4A3C31] tracking-tight">
-          Canteen Connect
+          XavDash
         </h2>
         <p className="mt-2 text-center text-sm font-medium text-[#8C7A6B]">
           {isLogin ? "Sign in to order your food" : "Create an account to skip the queue"}
