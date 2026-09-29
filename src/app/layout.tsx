@@ -35,12 +35,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         
         {/* Fixed Background Image */}
         <div 
-          className="fixed inset-0 w-full h-full bg-cover bg-top bg-no-repeat -z-20"
+          className="fixed top-0 left-0 w-full h-[100vh] min-h-[100dvh] bg-cover bg-center bg-no-repeat -z-20"
           style={{ backgroundImage: "url('/bg.jpg')" }}
         ></div>
 
         {/* Translucent Latte Overlay */}
-        <div className="fixed inset-0 bg-[#E5DCC5]/65 -z-10"></div>
+        <div className="fixed top-0 left-0 w-full h-[100vh] min-h-[100dvh] bg-[#E5DCC5]/65 -z-10"></div>
         
         <GlobalSearchModal />
 
