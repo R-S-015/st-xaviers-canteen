@@ -138,8 +138,8 @@ export default function KitchenDashboard() {
     <div className="min-h-[100dvh] bg-transparent font-sans flex flex-col overflow-hidden">
       
       {/* Top Navbar */}
-      <header className="bg-[#2D2A26]/80 backdrop-blur-xl backdrop-saturate-150 text-[#F2EAE0] p-4 flex justify-between items-center z-10 flex-shrink-0 shadow-[0_8px_32px_rgba(0,0,0,0.2),inset_0_1px_1px_rgba(255,255,255,0.1)] border-b border-white/10">
-        <div className="flex items-center gap-4">
+      <header className="bg-[#2D2A26]/80 backdrop-blur-xl backdrop-saturate-150 text-[#F2EAE0] p-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-10 flex-shrink-0 shadow-[0_8px_32px_rgba(0,0,0,0.2),inset_0_1px_1px_rgba(255,255,255,0.1)] border-b border-white/10">
+        <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
           <h1 className="text-xl font-black tracking-wide flex items-center gap-2 drop-shadow-sm">
             <span className="text-2xl">👨‍🍳</span> Kitchen Display
           </h1>
@@ -166,7 +166,7 @@ export default function KitchenDashboard() {
             🔔 Enable Alerts
           </button>
         </div>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3 w-full md:w-auto">
           <Link href="/kitchen/admin" className="bg-gradient-to-r from-[#769C8A] to-[#5C7F6F] hover:from-[#5C7F6F] hover:to-[#436456] px-5 py-2.5 rounded-xl font-bold text-sm transition-colors border border-white/20 shadow-lg text-white">
             📊 Admin Dashboard
           </Link>
