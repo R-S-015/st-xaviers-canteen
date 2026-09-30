@@ -211,29 +211,29 @@ export default function AdminDashboard() {
                 <table className="w-full text-left border-collapse">
                   <thead>
                     <tr className="bg-[#EBE6DD]/80 text-[#8C7A6B] text-xs uppercase tracking-widest">
-                      <th className="p-4 font-bold border-b border-white/50">Item Name</th>
-                      <th className="p-4 font-bold border-b border-white/50">Category</th>
-                      <th className="p-4 font-bold border-b border-white/50">Price</th>
-                      <th className="p-4 font-bold border-b border-white/50">Status</th>
-                      <th className="p-4 font-bold border-b border-white/50 text-right">Actions</th>
+                      <th className="p-4 font-bold border-b border-white/50 whitespace-nowrap">Item Name</th>
+                      <th className="p-4 font-bold border-b border-white/50 whitespace-nowrap">Category</th>
+                      <th className="p-4 font-bold border-b border-white/50 whitespace-nowrap">Price</th>
+                      <th className="p-4 font-bold border-b border-white/50 whitespace-nowrap">Status</th>
+                      <th className="p-4 font-bold border-b border-white/50 text-right whitespace-nowrap">Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     {menuItems.map(item => (
                       <tr key={item.id} className="border-b border-white/30 hover:bg-white/30 transition-colors">
-                        <td className="p-4 font-black text-[#4A3C31]">{item.name}</td>
-                        <td className="p-4 font-bold text-[#8C7A6B] text-sm">
+                        <td className="p-4 font-black text-[#4A3C31] whitespace-nowrap">{item.name}</td>
+                        <td className="p-4 font-bold text-[#8C7A6B] text-sm whitespace-nowrap">
                           <span className="bg-white/40 px-2 py-1 rounded-md border border-white/50 shadow-sm">{item.category}</span>
                         </td>
-                        <td className="p-4 font-bold text-[#5C7F6F]">₹{item.price}</td>
-                        <td className="p-4">
+                        <td className="p-4 font-bold text-[#5C7F6F] whitespace-nowrap">₹{item.price}</td>
+                        <td className="p-4 whitespace-nowrap">
                           {item.out_of_stock ? (
                              <span className="bg-rose-100/80 text-rose-600 text-xs font-bold px-2 py-1 rounded-md border border-rose-200 shadow-sm">Out of Stock</span>
                           ) : (
                              <span className="bg-emerald-100/80 text-emerald-700 text-xs font-bold px-2 py-1 rounded-md border border-emerald-200 shadow-sm">Available</span>
                           )}
                         </td>
-                        <td className="p-4 text-right space-x-2">
+                        <td className="p-4 text-right whitespace-nowrap flex gap-2 justify-end">
                           <button 
                             onClick={() => { setEditingItem(item); setIsEditModalOpen(true); }}
                             className="bg-white/50 hover:bg-white border border-white/60 text-[#5E4D3F] px-3 py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm"
